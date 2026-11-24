@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a problem with iBoysoft NTFS for Mac
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please check the [Help Documentation](https://iboysoft.com/ntfs-for-mac/online-help.html) first to see if the issue already has a documented solution.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The iBoysoft NTFS for Mac version you are using (for example, V9.0).
+      placeholder: V9.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: Your macOS version and, if known, whether the Mac is Apple Silicon or Intel (for example, macOS 15 Sequoia, Apple Silicon M2).
+      placeholder: macOS 15 Sequoia, Apple Silicon M2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps another person can follow to reproduce the problem.
+      placeholder: |
+        1. Connect the NTFS drive...
+        2. Open iBoysoft NTFS for Mac...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened, including any error messages.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs and/or drag in screenshots that show the issue.
+    validations:
+      required: true

@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea or enhancement for iBoysoft NTFS for Mac
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem you want to solve and your proposed solution. Check the [Help Documentation](https://iboysoft.com/ntfs-for-mac/online-help.html) if the feature may already exist.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What problem or limitation are you running into? Who is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or change you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions, workarounds, or existing features you have already considered.
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/iBoysoft/iBoysoft-NTFS-for-Mac/discussions
+    about: Ask usage questions and share experience with other users.
+  - name: Help documentation
+    url: https://iboysoft.com/ntfs-for-mac/online-help.html
+    about: Read the help documentation to quickly resolve common questions.
+  - name: Security report
+    url: https://github.com/iBoysoft/iBoysoft-NTFS-for-Mac/security/advisories/new
+    about: Report a security vulnerability privately. Do not file a public issue.
