@@ -107,7 +107,7 @@ macOS 15 Sequoia 及更早版本不提供扩展模式，请根据软件提示选
 
 ### 能挂载 BitLocker 加密的 NTFS 硬盘吗？
 
-不能。赤友NTFS助手及其他普通 NTFS for Mac 软件通常不能直接读写 BitLocker 加密的 NTFS 硬盘。请不要按普通 NTFS 挂载流程处理这类磁盘，详见[帮助文档](https://aibotech.cn/ntfs-for-mac/online-help.html)。
+不能。赤友NTFS助手及其他普通 NTFS for Mac 软件通常不能直接读写 BitLocker 加密的 NTFS 硬盘(在Mac上读写BitLocker加密盘，需使用另外的专门工具，比如iBoysoft BitLocker for Mac)。请不要按普通 NTFS 挂载流程处理这类磁盘，详见[帮助文档](https://aibotech.cn/ntfs-for-mac/online-help.html)。
 
 ### 如何卸载赤友NTFS助手？
 
