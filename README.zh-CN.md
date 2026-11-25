@@ -35,7 +35,7 @@ macOS 15 Sequoia 及更早版本不提供扩展模式，请根据软件提示选
 | 操作系统 | macOS 27 Golden Gate、26 Tahoe、15 Sequoia、14 Sonoma、13 Ventura、12 Monterey、11 Big Sur、10.15 Catalina、10.14 Mojave、10.13 High Sierra。macOS 10.8–10.12 需使用历史版本安装包 |
 | Mac 机型 | Apple Silicon（包括已适配的 M1 至 M6 系列）和 Intel Mac；具体模式与授权要求可能因芯片而异 |
 | 存储设备 | 通常可用于受支持的 NTFS 移动硬盘、U 盘及 Boot Camp 分区 |
-| 文件格式 | 普通 NTFS；不能直接解锁或读写 BitLocker 加密盘 |
+| 文件系统类型 | 普通 NTFS；不能直接解锁或读写 BitLocker 加密盘 |
 
 ## 如何安装并开始使用？
 
