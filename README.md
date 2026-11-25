@@ -13,7 +13,7 @@ iBoysoft NTFS for Mac is a full-featured NTFS driver for macOS that enables full
 
 - **Full NTFS read and write.** Edit, delete, copy, and move files on NTFS drives, and use them in Finder like native Mac APFS or HFS+ disks.
 - **Automatic writable mounting.** In Advanced mode, NTFS drives are mounted in read-write mode automatically when they are connected or at startup.
-- **Flexible mounting modes.** Choose Simple mode, Extension mode (Apple's FSKit, macOS 26 and later, no kernel extension or restart), or Advanced mode (kernel-mode driver with automatic mounting).
+- **Flexible mounting modes.** Choose Simple mode, Extension mode (Apple's FSKit, macOS 26 Tahoe and later, no kernel extension or restart), or Advanced mode (kernel-mode driver with automatic mounting).
 - **Built-in disk management.** Open, eject, mount, unmount, repair, and format Windows drives; verify, open, and format non-NTFS volumes; and format drives to NTFS.
 - **Boot Camp access.** Read and write the Windows BOOTCAMP NTFS partition directly, without reformatting.
 - **Broad hardware and OS coverage.** Works on Apple Silicon (M5, M4, M3, M2, M1) and Intel Macs, from macOS 27 Golden Gate through macOS 10.13 High Sierra, with HDDs, SSDs, USB drives, SD cards, and all Microsoft NTFS versions from Windows NT 3.1 to Windows 10.
@@ -23,7 +23,7 @@ iBoysoft NTFS for Mac is a full-featured NTFS driver for macOS that enables full
 | Mode | How it works | When to use | Notes |
 | --- | --- | --- | --- |
 | Simple mode | Uses the NFS protocol and iBoysoft's own NTFS implementation | Quick read/write without extra setup | Remount the drive each time. The volume is not shown in the Finder sidebar and cannot be managed in Disk Utility. |
-| Extension mode | Runs iBoysoft's NTFS file system in user space through Apple's FSKit | macOS 26 and later, when you want Finder access without a kernel extension or restart | Enable the `iboysoftntfs` extension once. After you replug the disk, open the app and click Mount again. |
+| Extension mode | Runs iBoysoft's NTFS file system in user space through Apple's FSKit | macOS 26 Tahoe and later, when you want Finder access without a kernel extension or restart | Enable the `iboysoftntfs` extension once. After you replug the disk, open the app and click Mount again. |
 | Advanced mode | Uses the iBoysoft NTFS driver in kernel mode for automatic mounting | Hands-off read/write whenever you connect a drive | On macOS 10.13 or later and on Apple Silicon Macs, enable the system extension. After that, you do not need to keep the app open. |
 
 On macOS 15 Sequoia and earlier, only Simple mode and Advanced mode are available.
