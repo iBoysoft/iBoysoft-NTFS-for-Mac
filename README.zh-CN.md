@@ -1,4 +1,4 @@
-# 赤友NTFS助手（iBoysoft NTFS for Mac）
+# 赤友NTFS助手（iBoysoft NTFS for Mac中文版）
 
 [English](README.md) | **简体中文**
 
