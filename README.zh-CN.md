@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-赤友NTFS助手是一款面向 macOS 的 NTFS 读写工具。macOS 默认可以读取 NTFS 硬盘，但不能直接写入。安装并按需挂载后，即可在原有 NTFS 格式上复制、编辑、删除和新建文件，无需先格式化，也适用于移动硬盘、U 盘以及 Boot Camp 分区。
+赤友NTFS助手是一款NTFS for Mac软件。macOS 默认可以读取 NTFS 硬盘，但不能直接写入。安装并按需挂载后，即可在原有 NTFS 格式上复制、编辑、删除和新建文件，无需先格式化，也适用于移动硬盘、U 盘以及 Boot Camp 分区。
 
 [产品官网](https://aibotech.cn/ntfs-for-mac/) · [帮助文档](https://aibotech.cn/ntfs-for-mac/online-help.html)
 
